@@ -1,0 +1,28 @@
+{
+  "name": "playwright-bdd-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:e2e": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bzambrano/playwright-bdd-cucumber.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bzambrano/playwright-bdd-cucumber/issues"
+  },
+  "homepage": "https://github.com/bzambrano/playwright-bdd-cucumber#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.6.0",
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
